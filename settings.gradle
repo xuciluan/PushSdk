@@ -1,2 +1,3 @@
 rootProject.name='PushSDK'
 include ':app'
+include ':pushcore'

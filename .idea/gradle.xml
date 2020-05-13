@@ -11,6 +11,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/pushcore" />
+            <option value="$PROJECT_DIR$/pushsdk" />
+            <option value="$PROJECT_DIR$/xingepush" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

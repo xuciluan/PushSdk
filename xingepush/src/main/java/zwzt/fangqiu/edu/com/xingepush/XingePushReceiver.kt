@@ -2,7 +2,7 @@ package com.zwzt.xingepush
 
 import android.content.Context
 import com.tencent.android.tpush.*
-import com.zwzt.pushcore.ZTPushMessage
+import zwzt.fangqiu.edu.com.pushcore.ZTPushMessage
 
 open class XingePushReceiver  : XGPushBaseReceiver() {
 

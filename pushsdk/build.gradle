@@ -2,9 +2,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 // JitPack Maven
-apply plugin: 'com.github.dcendents.android-maven'
+//apply plugin: 'com.github.dcendents.android-maven'
 // Your Group
-group='com.github.xuciluan'
+//group='com.github.xuciluan'
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"

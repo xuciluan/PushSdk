@@ -39,8 +39,8 @@ dependencies {
     api 'com.tencent.tpns:tpns:1.1.6.1-release' //  TPNS 推送 [VERSION] 为当前SDK版本号,版本号可在SDK下载页查看
 
     implementation 'com.tencent.tpns:meizu:1.1.6.0-release'
-//    implementation 'com.tencent.tpns:huawei:1.1.6.0-release'
-//    implementation 'com.tencent.tpns:oppo:1.1.6.0-release'
-//    implementation 'com.tencent.tpns:xiaomi:1.1.6.0-release'
-//    implementation 'com.tencent.tpns:vivo:1.1.6.0-release'
+    implementation 'com.tencent.tpns:huawei:1.1.6.0-release'
+    implementation 'com.tencent.tpns:oppo:1.1.6.0-release'
+    implementation 'com.tencent.tpns:xiaomi:1.1.6.0-release'
+    implementation 'com.tencent.tpns:vivo:1.1.6.0-release'
 }

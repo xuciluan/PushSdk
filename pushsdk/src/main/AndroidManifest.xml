@@ -2,14 +2,6 @@
     package="zwzt.fangqiu.edu.com.pushsdk" >
     <application>
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
-        <!-- 【必须】 请修改为 APP 的 AccessId，“15”开头的10位数字，中间没空格 -->
-        <!--        <meta-data-->
-        <!--            android:name="XG_V2_ACCESS_ID"-->
-        <!--            android:value="1500007305" />-->
-        <!--        &lt;!&ndash; 【必须】 请修改为APP的AccessKey，“A”开头的12位字符串，中间没空格 &ndash;&gt;-->
-        <!--        <meta-data-->
-        <!--            android:name="XG_V2_ACCESS_KEY"-->
-        <!--            android:value="A3WJ4FYEO5BA" />-->
         <receiver android:name="com.zwzt.xingepush.XingePushReceiver">
             <intent-filter>
                 <!-- 接收消息透传 -->

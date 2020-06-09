@@ -3,10 +3,10 @@ package zwzt.fangqiu.edu.com.pushsdk
 import android.content.Context
 
 import com.zwzt.xingepush.XingePushManager
-import zwzt.fangqiu.edu.com.pushcore.IPushManager
-import zwzt.fangqiu.edu.com.pushcore.PushMessageHandler
-import zwzt.fangqiu.edu.com.pushcore.RegisterCallback
-import zwzt.fangqiu.edu.com.pushcore.ZTPushConfig
+import zwzt.fangqiu.edu.com.pushsdk.common.IPushManager
+import zwzt.fangqiu.edu.com.pushsdk.common.PushMessageHandler
+import zwzt.fangqiu.edu.com.pushsdk.common.RegisterCallback
+import zwzt.fangqiu.edu.com.pushsdk.common.ZTPushConfig
 
 /**
  * 作文纸条默认推送管理者
@@ -31,10 +31,6 @@ object ZTPushManager : IPushManager {
 
     override fun registerListener(handler: PushMessageHandler) {
         proxy.registerListener(handler)
-    }
-
-    override fun uploadLogFile(context: Context) {
-        proxy.uploadLogFile(context)
     }
 
 }

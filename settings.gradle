@@ -1,5 +1,5 @@
 rootProject.name='PushSDK'
-include ':pushcore'
-include ':xingepush'
+//include ':pushcore'
+//include ':xingepush'
 include ':pushsdk'
 include ':app'

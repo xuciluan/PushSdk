@@ -1,15 +1,14 @@
 package zwzt.fangqiu.edu.com.pushsdk.common
 
-class ZTPushConfig {
-    //OPPO
-    var oppoKey: String? = null
-    var oppoSecret: String? = null
+data class ZTPushConfig(
+    val oppoKey: String?,
+    val oppoSecret: String?,
     //魅族
-    var meizuId: String? = null
-    var meizuKey: String? = null
+    val meizuId: String?,
+    val meizuKey: String?,
     //小米
-    var xiaoMiId: String? = null
-    var xiaomiKey: String? = null
+    val xiaoMiId: String?,
+    val xiaomiKey: String?,
     //开启五大厂商通道
-    var enableOtherPush: Boolean = true
-}
+    val enableOtherPush: Boolean = true
+)
